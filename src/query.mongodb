@@ -1,0 +1,11 @@
+use("sample_training")
+
+// Buscar elementos
+
+// db : sample_trainning
+// zips : colección
+db.zips.find({state:"NY"})
+
+// Contar elementos
+
+db.zips.find({state:"NY"}).count()
