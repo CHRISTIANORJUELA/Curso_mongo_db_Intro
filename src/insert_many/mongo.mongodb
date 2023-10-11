@@ -1,0 +1,29 @@
+use("store");
+
+db.products.drop()
+
+db.products.insertMany(
+   [{
+    _id:1,
+    name:"Gelatina",
+    price:200
+   },{
+    _id:2,
+    name:"Agua",
+    price:100
+   },
+   {
+    _id:1,
+    name:"Helado",
+    price:2000
+   },
+   {
+    _id:3,
+    name:"Cafe",
+    price: "100"
+   }
+],
+{
+    ordered:false
+}
+)
