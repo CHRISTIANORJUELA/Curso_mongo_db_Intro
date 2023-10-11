@@ -1,0 +1,13 @@
+use('store_cloud')
+
+db.products.insertOne({
+    _id:1,
+    name:'Pepsi',
+    price: 342
+})
+
+db.products.insertOne({
+    _id:2,
+    name:'Postobon',
+    price: 540
+})
